@@ -1,5 +1,5 @@
 import React from 'react';
-import {Navbar, Welcome} from '#components'
+import {Navbar, Welcome, Dock } from '#components'
 
 
 function App() {
@@ -7,6 +7,7 @@ function App() {
     <main>
       <Navbar />
       <Welcome />
+      <Dock />
     </main>
   );
 }
